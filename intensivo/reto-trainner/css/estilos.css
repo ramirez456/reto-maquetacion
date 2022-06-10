@@ -1,0 +1,43 @@
+/*
+Selectores
+Etiquetas HTML = h1, section
+Clases  = .miClase, .banner(Se usa varias veces y tambien una sola vez)
+ID  = #subtitulo, #mascota(Solo se usa una vez)
+*/
+header img{
+  max-width: 241px;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.banner .container{
+  display: flex;
+}
+
+.banner-descrip a{
+  align-items: center ;
+  background: linear-gradient(44.11deg, #CD10FF 15.75%, #9F06FF 84.63%);
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  height: 66px;
+  margin-top: 20px;
+  text-decoration: none;
+  width: 206px;
+}
+
+.banner-descrip h1{
+  color:#001A49;
+  font-size: 60px;
+}
+
+
+
+

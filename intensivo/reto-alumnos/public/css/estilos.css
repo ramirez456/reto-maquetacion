@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+/*
+Para utilizar de forma efectiva la propiedad position absolute, primero se debe colocar position relative,
+en el contenedor que va contener el elemento que lo vamos a colocar position absolute
+
+*/
+img {
+  max-width: 100%;
+}
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+.cv header {
+  background-image: url("../img/back-header.png");
+  background-size: cover;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  height: 144px;
+}
+.cv main .container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.cv main .container section:nth-of-type(1) {
+  margin-top: -80px;
+  padding-bottom: 40px;
+  position: relative;
+  width: 320px;
+}
+.cv main .container section:nth-of-type(1) figure:nth-of-type(2) {
+  position: absolute;
+  top: -40px;
+  right: 45px;
+}
+@media screen and (min-width: 1024px) {
+  .cv {
+    background: #fff;
+    -webkit-box-shadow: 0px 4px 40px rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 40px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-right: auto;
+    max-width: 90%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cv {
+    max-width: 1160px;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1035px;
+  }
+}

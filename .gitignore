@@ -1,0 +1,10 @@
+intensivo/reto-alumnos/node_modules
+intensivo/reto-alumnos/node_modules/*
+intensivo/reto-alumnos/assets
+intensivo/reto-alumnos/.editorconfig
+intensivo/reto-alumnos/gulpfile.js
+intensivo/reto-alumnos/package.json
+intensivo/reto-alumnos/package-lock.json
+intensivo/reto-alumnos/README.md
+normal/T4
+.DS_Store
