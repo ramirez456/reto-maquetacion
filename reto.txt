@@ -1,0 +1,37 @@
+SEM
+Es una de las metodologia  para poder hacer que las paginas sean mucho mas orientadas al marketing.
+SEO
+Esta es una metodologia que se utiliza para hacer que tu web sea mas optimizada para ser indexada en los navegadores.
+
+BACKEND
+Es el rol que se encarga de las comunicaciones con el frontend y la base de datos, en este rol basicamente se encarga de desarrollar
+la logica de la aplicacíon y la persistencia de su información.
+
+FRONTEND
+Este es rol en el que se trabaja en las interfaces de usuario, es decir, en las vistas. para poder bridar una mejor experienia al usuario.
+
+TECNOLOGIAS FRONTEND
+CSS
+HTML
+JS
+REACT
+VUEJS
+
+TECNOLOGIAS BACKEND
+C#
+GOLANG
+JAVASCRIPT
+JAVA
+PHP
+NESTJS
+NODEJS
+MYSQL
+MONGODB
+PostgreSQL
+REDIS
+RabbitMQ
+
+
+¿Es cierto que antes JS(antes que venga HTML5), solo funcionaba para el lado del Frontend?
+La tecnologia fue pensada para trabajar del lado del cliente como una alternativa mas lijera a Flash.
+E inicialmente solo se aplicada para poder hacer la pagina un poco mas bonita aplicandola para hacer animaciones entre los diferentes elementos del DOM.
